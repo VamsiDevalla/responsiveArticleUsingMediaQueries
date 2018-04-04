@@ -1,0 +1,98 @@
+body{
+	background-color:#f2f4f7;
+}
+
+.content{
+	margin: 0 auto;
+	width:90%;
+}
+
+nav,footer{
+	margin-top: 0.5em; 
+	color: white;
+	background-color: black;
+	border-radius:4px;
+}
+
+#companyName{
+	color: orange;
+}
+
+nav{
+	padding: 0.5em 0;
+}
+
+footer{
+	clear:both;
+	padding-left: 0.5em;
+}
+
+footer p{
+	padding: 0.5em;
+}
+
+nav a{
+	padding: 0.5em;
+	text-decoration: none;
+	color: white;
+}
+
+article header{
+	color: orange;
+}
+
+header{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+a:hover{
+	background-color: orange;
+}
+
+.articleContainer div{
+	float: left;
+}
+
+.mainContent{
+	width: 75%;
+}
+
+.sideContent{
+	width: 25%;
+}
+
+article,aside{
+	margin: 0.5em 0;
+	padding: 0.5em;
+	border-radius: 4px;
+	background-color: white;
+}
+
+article{
+	margin-right: 0.5em;
+}
+
+.subtext{
+	color: #67686b;
+}
+
+@media (max-width: 800px) {
+	nav a{
+		display: block;
+		text-align: center;
+		padding: 0.5em 1em;
+	}
+
+	article{
+		margin-right: 0;
+	}
+
+	.articleContainer div{
+		width: 100%;
+		float: none;
+	}
+	img{
+		width: 80%;
+	}
+}
